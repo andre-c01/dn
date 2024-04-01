@@ -20,10 +20,10 @@ session_start();
                     <label><h3>SIGN IN / SIGN UP</h3></label><br>
 
                     <label for="nome">Nome De Utilizador:</label><br>
-                    <input type="text" id="nome" name="nome"><br>
+                    <input type="text" id="nome" name="nome" required><br>
 
                     <label for="password">Password:</label><br>
-                    <input type="password" id="password" name="password">
+                    <input type="password" id="password" name="password" required>
 
                     <div class="buttons">
                         <button id="signin" type="submit" formaction="/verifica.php">SIGN IN</button>
