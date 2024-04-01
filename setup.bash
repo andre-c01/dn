@@ -69,8 +69,7 @@ mariadb  -u root -D "$_DB" -e "desc $_DB_TABLE;"
 
 mkdir /var/www/daniel
 
-#git clone https://github.com/andre-c01/dn.git
-git clone "https://andre-c01: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@github.com/andre-c01/dn.git"
+git clone https://github.com/andre-c01/dn.git
 
 mv dn/php/* /var/www/daniel/
 
