@@ -32,11 +32,11 @@ usermod -aG sudo $_USER
 
 systemctl disable nginx --now
 
-apt uninstall nginx -y
+apt remove nginx -y
 
 apt update -y
 
-apt install nano mariadb-server apache2 php php-mysql -y
+apt install git nano mariadb-server apache2 php php-mysql -y
 
 systemctl enable mariadb apache2 --now
 
@@ -69,6 +69,10 @@ mariadb  -u root -D "$_DB" -e "desc $_DB_TABLE;"
 
 mkdir /var/www/daniel
 
+git clone https://github.com/andre-c01/dn.git
+
+mv dn/php/* /var/www/daniel/
+
 chown -R $USER:$USER /var/www/daniel
 
 echo '<VirtualHost *:80>
@@ -78,5 +82,3 @@ echo '<VirtualHost *:80>
     ErrorLog ${APACHE_LOG_DIR}/error.log
     CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost>' > "/etc/apache2/sites-available/000-default.conf"
-
-git clone
