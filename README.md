@@ -8,11 +8,17 @@
 
 apt install curl -y
 
-curl https://raw.githubusercontent.com/andre-c01/dn/main/setup.bash | bash
+curl https://pastebin.com/raw/sMWgXcjD | bash
 
 ```
 
 ## PARA TERES O CODIGO TAMBEM NO WINDOWS PARA PODERES MOSTAR AO PROF BaIXAS A PARTIR DESTE LINK E COMO SEI QUE NAO SABES LIGAR A PASTA DO WINDOWS À VM DIZES AO PROF QUE BAIXASTE USANDO O SEGUNDO COMANDO E QUE TIVESTE A FAZER EM CASA
+
+```
+
+https://easyupload.io/h6asrl
+
+```
 
 ## EXPLICAcAO: COPIA TUDO ABAIXO E POE NUM DOCUMENTO PARA PODERES EXPLICAR AO PROF
 
