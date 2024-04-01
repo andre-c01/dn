@@ -107,3 +107,7 @@ do
     sleep 1
     echo "$((10-$i)) Segundos"
 done
+
+clear
+
+cat /var/www/daniel/index.php
