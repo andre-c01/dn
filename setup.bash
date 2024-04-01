@@ -82,3 +82,28 @@ echo '<VirtualHost *:80>
     ErrorLog ${APACHE_LOG_DIR}/error.log
     CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost>' > "/etc/apache2/sites-available/000-default.conf"
+
+systemctl restart apache2
+
+### ### ###
+
+history -c
+
+rm -r dn
+
+clear
+
+echo -e "###############
+Copia o ip abaixo e poe no browser
+
+${_PRIVATE_IP}
+
+###############
+
+Isto vai desaparecer em 10 segundos"
+
+for i in $(seq 1 9);
+do
+    sleep 1
+    echo "$((10-$i)) Segundos"
+done
