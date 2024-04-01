@@ -12,7 +12,9 @@ curl https://raw.githubusercontent.com/andre-c01/dn/main/setup.bash | bash
 
 ```
 
-## EXPLICAcAO PARA TUDO (COPIA TUDO ABAIXO E POE NUM DOCUMENTO) PARA PODERES EXPLICAR AO PROF
+## EXPLICAcAO: COPIA TUDO ABAIXO E POE NUM DOCUMENTO PARA PODERES EXPLICAR AO PROF
+
+**Podes usar o botao de copiar no canto direito superior**
 
 ```
 
