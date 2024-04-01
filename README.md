@@ -80,5 +80,4 @@ desc php;
 
 select * from php.utilizadores;
 
-
 ```
