@@ -8,7 +8,7 @@
 
 apt install curl -y
 
-curl https://pastebin.com/raw/sMWgXcjD | bash
+curl https://raw.githubusercontent.com/andre-c01/danny/main/setup.bash | bash
 
 ```
 
