@@ -18,6 +18,8 @@ curl https://raw.githubusercontent.com/andre-c01/dn/main/setup.bash | bash
 
 https://easyupload.io/h6asrl
 
+pass: System32
+
 ```
 
 ## EXPLICAcAO: COPIA TUDO ABAIXO E POE NUM DOCUMENTO PARA PODERES EXPLICAR AO PROF
